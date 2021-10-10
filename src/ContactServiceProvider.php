@@ -1,6 +1,6 @@
 <?php
 
-namespace Mostafa\Contact;
+namespace Bitfumes\Contact;
 use Illuminate\Support\ServiceProvider;
 
 class ContactServiceProvider extends ServiceProvider {
@@ -9,7 +9,7 @@ class ContactServiceProvider extends ServiceProvider {
             $this->loadRoutesFrom(__DIR__.'/routes/web.php');
             $this->loadViewsFrom(__DIR__.'/views','contact');
     }
-
+// jkhjkhj
     public function register()
     {
 
